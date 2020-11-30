@@ -23,7 +23,7 @@ public class Customer {
     private String last_name;
     private String email;
     private String tax_number;
-    private Date birth_date;
+    private String birth_date; 
 
     public String getId() {
         return id;
@@ -65,11 +65,11 @@ public class Customer {
         this.tax_number = tax_number;
     }
 
-    public Date getBirth_date() {
+    public String getBirth_date() {
         return birth_date;
     }
 
-    public void setBirth_date(Date birth_date) {
+    public void setBirth_date(String birth_date) {
         this.birth_date = birth_date;
     }
 }
